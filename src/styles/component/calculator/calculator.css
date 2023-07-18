@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-calc-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(215, 215, 215);
+}
+
+.inner-container{
+    width: 375px;
+    height: 812px;
+    padding: 67px 31px 50px 31px;
+    /* padding-top: 67px; */
+    border-radius: 40px;
+    background-color: #17181A;
+    /* border: 3px solid red; */
+}
+
+.inner-content{
+  width: 100%;
+  height: 100%;
+  /* border: 3px solid purple; */
+  /* margin: auto; */
+}
+
+.top-half{
+  width: 100%;
+  height: 40%;
+  /* border: 3px solid yellow; */
+}
+
+.bottom-half{
+}
+
+.calc-name{
+  width: 153px;
+  height: 42px;
+  font-size: 18px;
+  color: #29A8FF;
+  margin-bottom: 40px;
+}
+
+input{
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 28px;
+  background-color: #17181A;
+  text-align: end;
+  border: none;
+}
+
+.calculations-screen{
+  /* border: 3px solid green; */
+}
+
+.result{
+  width: 100%;
+  word-wrap: break-word;
+  /* border: 3px solid red; */
+
+}
+
+.result p{
+  color: #f5f5f5;
+  font-size: 48px;
+  text-align: end;
+}
+
+.each-button{
+  width: 100%;
+  /* border: 3px solid green; */
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.scientific-half{
+  margin-top: -70px;
+}
+
+.each-sci-button{
+  width: 100%;
+    /* border: 3px solid green; */
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.occupy{
+  grid-column: span 2;
+}
+
+.btns-styles {
+  /* width: 62px; */
+  height: 60px;
+  background-color: #616161;
+  border-radius: 10px;
+  font-size: 24px;
+  color: #29A8FF;
+  border: none;
+}
+
+.each-button button:focus{
+    border: 2px solid pink;
+    font-size: 40px;
+    color: pink;
+    transform: translateY(-2px);
+}
+
+.blue-button, .clear{
+  background-color: #29A8FF;
+  border-radius: 10px;
+  color: #C0C0C0;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.color-grey {
+  color: #C0C0C0;
+}
+
+.clear{
+  background-color: darkblue;
+  border: none;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 12px;
+}
